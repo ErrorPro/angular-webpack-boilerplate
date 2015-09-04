@@ -16,7 +16,7 @@ compiler.plugin('done', function() {
 
 var bundler = new webpackDevServer(compiler, {
 
-  publicPath: '/',
+  publicPath: '/assets/',
   hot: true,
   quiet: false,
   noInfo: true,
