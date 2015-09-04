@@ -1,7 +1,9 @@
+import home from '../view/home.html'
+
 const config = ($routeProvider) => {
   $routeProvider.
     when('/home', {
-      templateUrl: '../view/home.html',
+      templateUrl: home,
       controller: 'testCtrl'
     })
 }
